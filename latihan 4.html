@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <title>Form wisata waterfall banyumala</title>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+<body>
+   <div class="container ">
+      <div class="content">
+          <div class="col-lg-8 bg-info">
+              <div class="text-center">
+                 <h1>Formumil wisatawan</h1>
+             </div>
+         <hr>
+         <form class=" form-horizontal " action=" ">
+            <div class="form-group ">
+               <label class="control-label col-sm-3 ">NAMA:</label>
+               <div class="col-sm-9 ">
+                   <input type="text" class="form-control " required placeholder="Masukkan Nama " name="nama">
+               </div>
+            </div>
+               <div class="form-group ">
+                  <label class="control-label col-sm-3 ">No.telp:</label>
+                  <div class="col-sm-9 ">
+                      <input type="telp" class="form-control " required placeholder="Masukkan telp " name="telp">
+                  </div>
+                </div>
+                <div class="form-group ">
+                  <label class="control-label col-sm-3 ">Email:</label>
+                  <div class="col-sm-9 ">
+                      <input type="email" class="form-control " required placeholder="Masukkan email " name="email">
+                  </div>
+                </div>
+                <div class="form-group ">
+                    <label class="control-label col-sm-3 ">Tempat Asal:</label>
+                    <div class="col-sm-9 ">
+                        <select name="status_pekerjaan" class="form-control sp">
+                            <option value=" ">Tempat Asal Wisatawan</option>
+                            <option value="Singaraja">Singaraja</option>
+                            <option value="Pancasari">Pancasari</option>
+                            <option value="Badung">Badung</option>
+                            <option value="Karangasem">Karangasem</option>
+                            <option value="Tabanan">Tabanan</option>
+                            <option value="Seririt">Seririt</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="form-group ">
+                    <div class="col-sm-offset-3 col-sm-9 text-right" style="font-size:30px;">
+                     <button type="Login " class="btn btn-default ">Login</button>
+                   </div>
+               </div>
+            </form>
+
+                </div>
+                 <div class="col-lg-3 " style="background-color: aliceblue; ">
+                 </div>
+               </div>
+             </div>
+                 <div id="myModal " class="modal fade " role="dialog ">
+                 <div class="modal-dialog ">
+             <!-- Modal content-->
+                <div class="modal-content ">
+                    <div class="modal-header ">
+                        <button type="button " class="close " data-dismiss="modal ">&times;</button>
+                         <h4 class="modal-title ">Berhasil</h4>
+                    </div>
+                        <div class="modal-body ">
+                        <p></p>
+                    </div>
+                    <div class="modal-footer ">
+                    <button type="button " class="btn btn-default " data-dismiss="modal ">Close</button>
+                </div>
+            </div>
+        </div>
+     </div>
+</body>
+<script>
